@@ -1,0 +1,59 @@
+﻿Description,Mean,Range   ,Units,"Reference, data source, notes or equation used to calculate"
+Intercept in respiration rate regression,4.325,±2 SE,,"SE = 5.52, modified from Ikeda 2016 (mesopelagic fish only and centered predictors)"
+Coefficient for individual fish wet mass,0.731,±2 SE,,"SE = 0.059, modified from Ikeda 2016"
+Coefficient for temperature,-6.899,±2 SE,,"SE = 1.56, modified from Ikeda 2016"
+Coefficient for migrating behavior,0.814,±2 SE,,"SE = 0.20, modified from Ikeda 2016"
+Indicator variable (1 for VM or 0 for NM),0 or 1,,,"Categorical habitat depth variable, modified from Ikeda 2016 "
+Mean temperature in epipelagic,14,"(9, 19)",°C,"Arbitrary temperature range, to capture some variation in nature (not measurement uncertainty) "
+Mean temperature in mesopelagic,11,"(6, 16)",°C,Arbitrary temperature range
+Mean temperature across migration depth interval,12.5,"(7.5, 17.5)",°C,Arbitrary temperature range
+Respiration rate in units of oxygen utilization,,,μL O2/h,"Calculated in Supplementary material Section B, Eq. S1"
+Activity factor while resting,0.75,"(0.5, 1)",,Brett and Groves 1979
+Activity factor while migrating (VM fish),2.5,"(1, 4)",,Brett and Groves 1979; Smith and Laver 1981
+Activity factor while foraging,2.5,"(1, 4)",,Brett and Groves 1979; Smith and Laver 1981
+Proportion of day resting,0.5,"(0.33, 0.66)",,"Based on range of day length at 60° latitude, Eq. S4a"
+Proportion of day migrating (VM fish),,,,"Calculated in Supplementary material Section B, Eq. S4b"
+Proportion of day foraging,,,,"Calculated in Supplementary material Section B, Eq. S4c"
+Energy lost to metabolism (non-SDA),,,kJ/d,"Calculated in Supplementary material Section B, Eq. S3"
+Energy ingested,,,kJ/d,"Calculated in Supplementary material Section B, Eq. S5"
+Energy lost to growth (VM fish),0.018,± 50%,kJ/d,"Calculated from data in Childress et al., 1980"
+Energy lost to growth (NM fish),0.007,± 50%,kJ/d,"Calculated from data in Childress et al., 1980"
+Proportion of ingestion lost to SDA,0.14,± 20%,,Brett and Groves 1979
+Proportion of ingestion lost to fecal waste,0.2,± 20%,,Brett and Groves 1979
+Proportion of ingestion lost to excretion,0.07,± 20%,,Brett and Groves 1979
+Proportion of oxygen utilization not due to SDA,0.77,"(.54, 1)",,Brett and Groves 1979 (min =1-(0.14/0.30) = 0.54)
+NM fish prey (zooplankton) of non-detrital origin,0.7,± 20%,,"Steinberg et al., 2008"
+Ratio of respiration exported > flux boundary,,,kJ/d,Calculated in Eq. 1b
+VM fish non-SDA respiratory export flux ,,,mg C/d,Calculated in Eq. 1a
+NM fish non-SDA respiratory export flux ,,,mg C/d,Calculated in Eq. 1c
+Peak (mean) of gamma distribution for SDA flux,3,± 80%,hr,Used in Supplementary material Section C to inform Eq. S10
+Time to 90% SDA,12,"(10, 14)",hr,Used in Supplementary material Section C to inform Eq. S10
+Ratio of SDA exported > flux boundary,,,,"Calculated in Supplementary material Section C, Eq. S10"
+SDA export flux (VM fish),,,mg C/d,Calculated in Eq. 2a
+SDA export flux (NM fish),,,mg C/d,Calculated in Eq. 2b
+Ratio of fecal egestion exported > flux boundary,0.7,"(0.50, 0.90)",,Robison and Bailey 1981; Saba and Steinberg 2012
+Fecal pellet export flux (VM fish),,,mg C/d,Calculated in Eq. 3a
+Fecal pellet export flux (NM fish),,,mg C/d,Calculated in Eq. 3b
+Ratio of excreted carbon exported > flux boundary,0.7,"(0.5, 0.90)",,Assumed to be same as ratio of fecal egestion exported
+Carbon excretion rate,0.008,± 80%,mg C/d,"Wilson et al., 2009 and references therein"
+Excretion export flux (VM fish),,,mg C/d,Calculated in Eq. 4a
+Excretion export flux (NM fish),,,mg C/d,Calculated in Eq. 4b
+Asymptotic length of mesopelagic fish,21,,cm,"Gjosaeter et al., 1973; Childress et al., 1980; Wörner 1975"
+Growth coefficient,0.3,,,"Gjosaeter et al., 1973, Childress et al., 1980, Wörner 1975"
+Intercept in mortality rate equation,-0.0066,,,Pauly 1980
+Coefficient for asymptotic length,-0.279,,,Pauly 1980
+Coefficient for growth coefficient,0.6543,,,Pauly 1980
+Coefficient for mean water temperature,0.4634,,,Pauly 1980
+Annual instantaneous mortality rate (VM and NM fish),0.606,± 50%,,Calculated in Eq. 5a
+Mortality export flux (VM fish),,,mg C/d,Calculated in Eq. 5b
+Mortality export flux (NM fish),,,mg C/d,Calculated in Eq. 5c
+Oxycalorific coefficient ,13.6,± 10%,kJ/g O2,Jobling 1994
+Respiratory quotient,1.35,"(0.7, 2)",,Brett and Groves 1979; Jobling 1994
+Maximum depth of migration of VM fish,500,"(300, 700)",m,"Klevjer et al., 2016"
+Minimum depth of migration for VM fish,50,"(10, 90)",m,"Klevjer et al., 2016"
+Flux boundary,150,"(100, 200)",m,See Methods for rationale
+Migration swimming speed (VM fish),5,"(1, 20)",cm,"Davison et al., 2013; Kaartvedt et al. 2021; Christiansen et al. 2022"
+Energy density of fecal pellets,2,"(0.6, 3.5)",kcal/g DW,Bailey and Robertson 1982
+Ratio of carbon to dry weight of fecal pellets,0.075,"(0.05, 0.1)",,Saba and Steinberg 2012
+Ratio of carbon to wet mass of a VM or NM fish,0.143,"(0.038, 0.248)",g C / g W,Childress and Nygaard 1973
+Ratio of mortality flux > flux boundary,0.65,"(0.40, 0.90)",,"Sutton and Hopkins, 1996; Ochoa et al., 2013; Olson et al., 2014; O’Dwyer et al., 2015; Goetsch et al., 2018; Stewart et al., 2018; Watanuki and Thiebot, 2018; Braun et al., 2019"
